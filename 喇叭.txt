@@ -1,0 +1,2 @@
+docker run --privileged -ti your_image_name
+Docker 权限问题：默认情况下，Docker 容器在安全性方面进行了限制，可能会导致音频权限问题。为了解决这个问题，你可以使用 --privileged 标志来运行容器，但请注意，这会增加容器的权限，可能不适用于所有情况。

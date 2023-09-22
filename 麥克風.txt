@@ -1,0 +1,5 @@
+docker run --device /dev/snd:/dev/snd --group-add audio -it your_image_name
+在這個命令中，--device選項將主機的音訊設備映射到容器，--group-add選項將容器添加到audio組。
+
+
+
